@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.nav a:hover {
+    color: orange;
+}
+
+.top button {
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.hero button{
+    box-shadow: 0 5px 50px 0 orange;
+}
+
+.herol {
+    max-width: 50%;
+}
+.herol h1{
+    font-size: 65px;
+}
+
+.red {
+    color: red;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.itext {
+    max-width: 30%;
+    flex-direction: column;
+    height: max-content;
+    justify-content: space-between;
+    
+}
+
+.botri {
+    border-radius: 50px;
+    border-bottom-right-radius: 0;
+    padding: 20px 40px;
+}
+
+.top {
+    padding: 60px;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.list img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.app {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+
+.app img {
+    width: 300px;
+}
+
+.subscribe {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.subscribe form {
+    margin-top: 20px;
+}
+
+.subscribe input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
